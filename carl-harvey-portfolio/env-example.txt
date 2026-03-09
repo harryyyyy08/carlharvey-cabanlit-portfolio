@@ -1,0 +1,27 @@
+# API Keys and Secrets
+# Add your API keys and configuration values here
+
+# Contact Form Service (e.g., Formspree, Netlify Forms)
+NEXT_PUBLIC_CONTACT_FORM_URL=
+
+# Meeting Booking Service (e.g., Calendly)
+NEXT_PUBLIC_CALENDLY_URL=
+
+# Analytics (Optional)
+NEXT_PUBLIC_GA_ID=
+
+# Custom Domain (Optional)
+NEXT_PUBLIC_SITE_URL=
+
+# Email Service (Optional - for contact form notifications)
+SMTP_HOST=
+SMTP_PORT=
+SMTP_USER=
+SMTP_PASS=
+
+# Content Management API (Optional - for headless CMS)
+CMS_API_URL=
+CMS_API_TOKEN=
+
+# Development Only
+NODE_ENV=development
