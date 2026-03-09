@@ -56,7 +56,7 @@ export default function HeroSection() {
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
             Hi, I'm{' '}
-            <span className="text-blue-600">{personalInfo.name.split(' ')[0]}</span>
+            <span className="text-blue-600">{personalInfo.name.split(' ')[1]}</span>
           </h1>
           
           {/* Professional Title */}

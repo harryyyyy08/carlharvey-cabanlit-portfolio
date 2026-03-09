@@ -15,15 +15,13 @@ export default function AboutSection() {
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Profile Image Placeholder */}
+          {/* Profile Image */}
           <div className="flex justify-center">
-            <div className="w-80 h-80 bg-gray-200 rounded-full flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">👨‍💻</div>
-                <p className="text-gray-600">Profile Photo</p>
-                <p className="text-sm text-gray-500">Add your photo here</p>
-              </div>
-            </div>
+            <img
+              src={personalInfo.profileImagePath}
+              alt={personalInfo.name}
+              className="w-80 h-80 rounded-full object-cover shadow-lg"
+            />
           </div>
           
           {/* About Content */}

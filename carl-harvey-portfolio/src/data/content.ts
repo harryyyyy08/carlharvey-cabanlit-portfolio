@@ -5,8 +5,9 @@ export const personalInfo: PersonalInfo = {
   title: 'Full Stack Developer & System Architect',
   tagline: 'Building custom solutions for businesses and individuals',
   bio: 'I am a passionate full-stack developer with expertise in creating custom web applications, systems, and portfolio websites. With a focus on modern technologies and best practices, I help businesses and individuals bring their digital ideas to life.',
-  email: 'carlharvey@example.com',
-  location: 'Philippines'
+  email: 'carlharveycabanlit08@gmail.com',
+  location: 'Philippines',
+  profileImagePath: '/assets/images/profile/profile.png'
 };
 
 export const navigationItems: NavigationItem[] = [
